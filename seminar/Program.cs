@@ -22,7 +22,6 @@ void Main()
             case "Task28": Task28(); break;
             case "TaskN": TaskN(); break;
             case "seminar4": seminar4(); break;
-            case "Task30": Task30(); break;
             case "exit": isWorking = false; break;
         }
         Console.WriteLine();
@@ -249,6 +248,20 @@ int Pow(int firstNumber, int secondNumber)// функция возведения
     }
     return result;
 }
+
+//int [] GetArray (int length)// функция создания массива
+//{
+//    int [] array = new int[length];  // создали массив
+//
+    //заполняет пользователь массив
+  //  for (int i = 0; i < array.Length; i++)
+    //{
+      //  array[i] = ReadInt($"element {i}");
+   // }
+//
+//    return array;
+//}
+
 
 
 //массив вывод на экран

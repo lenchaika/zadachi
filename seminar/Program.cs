@@ -21,6 +21,7 @@ void Main()
             case "Task29": Task29(); break;
             case "Task28": Task28(); break;
             case "TaskN": TaskN(); break;
+            case "Task30": Task30(); break;
             case "seminar4": seminar4(); break;
             case "exit": isWorking = false; break;
         }

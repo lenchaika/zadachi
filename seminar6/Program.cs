@@ -31,11 +31,11 @@ int number = ReadInt("number");
 Transform(number);
 
 
-int ReadInt(string argument)
-{
-	Console.Write($"Input {argument}: ");
-	return int.Parse(Console.ReadLine()!);
-}
+//int ReadInt(string argument)
+//{
+//	Console.Write($"Input {argument}: ");
+//	return int.Parse(Console.ReadLine()!);
+//}
 
 void Transform(int number)
 {
@@ -65,11 +65,11 @@ void Transform(int number)
 int N = ReadInt("N");
 Fibonacci(N);
 
-int ReadInt(string argument)
-{
-	Console.Write($"Input {argument}: ");
-	return int.Parse(Console.ReadLine()!);
-}
+//int ReadInt(string argument)
+//{
+//	Console.Write($"Input {argument}: ");
+//	return int.Parse(Console.ReadLine()!);
+//}
 
 void Fibonacci(int N)
 {
@@ -101,11 +101,11 @@ PrintArray(array);
 Console.WriteLine();
 PrintArray(Copy(array));
 
-int ReadInt(string argument)
-{
-	Console.Write($"Input {argument}: ");
-	return int.Parse(Console.ReadLine()!);
-}
+//int ReadInt(string argument)
+//{
+//	Console.Write($"Input {argument}: ");
+//	return int.Parse(Console.ReadLine()!);
+//}
 
 int[] GetRandomArray(int length, int minValue, int maxValue)
 {
@@ -120,13 +120,13 @@ int[] GetRandomArray(int length, int minValue, int maxValue)
 	return array;
 }
 
-void PrintArray(int[] array)
-{
-	for (int i = 0; i < array.Length; i++)
-	{
-		Console.Write($"{array[i]}, ");
-	}
-}
+//void PrintArray(int[] array)
+//{
+//	for (int i = 0; i < array.Length; i++)
+//	{
+//		Console.Write($"{array[i]}, ");
+//	}
+//}
 
 int[] Copy(int[] array)
 {

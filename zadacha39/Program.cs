@@ -1,4 +1,6 @@
-﻿int length = ReadInt("Array length");
+﻿//напишите программу которая первернет ономерный массив (последний элемент будет на первом. а первый на последнем)
+
+int length = ReadInt("Array length");
 int[] array = GetRandomArray(length, -9, 9);
 
 PrintArray(array);

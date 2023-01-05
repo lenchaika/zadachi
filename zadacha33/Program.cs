@@ -8,6 +8,7 @@ int[] array = GetRandomArray(length, -15, 15);
 PrintArray(array);
 Console.WriteLine();
 FindNumber(array, find);
+ReversArray(array);
 
 
 int ReadInt(string argument)

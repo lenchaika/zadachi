@@ -1,15 +1,14 @@
 ﻿//Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами.
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 
+using System.Text;
+
 int length = ReadInt("Array length");
 int[] array = GetRandomArray(length, 100, 1000);
 int count = FindElements(array);
 PrintArray(array);
 Console.WriteLine();
 Console.WriteLine(count);
-
-
-
 
 
 int ReadInt(string argument)
@@ -36,6 +35,16 @@ void PrintArray(int[] array)
         Console.Write($"{array[i]}, ");
     }
 }
+//или (создание строк)..наверхy необходимо прописывать using System.Text;
+// string GetArrayAsString(int[] array)
+// {
+//     StringBuilder sb = new StringBuilder(array.Length);
+//     for (int i = 0; i < array.Length; i++)
+//          {
+//                sb.Append($"{array[i]}, ");
+ //           }
+//     return sb.ToString();
+// }
 
 int FindElements(int[]array)
 {

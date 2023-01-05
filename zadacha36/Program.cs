@@ -38,11 +38,10 @@ void PrintArray(int[] array)
 
 void FindSum(int[]array)
 {
-        
-    
+       
     for (int i = 0; i < array.Length; i++)
      {
-        if (array[i] % 2 != 0)
+        if ((array[i]+1) % 2 != 0)
         {
                result += array[i]; 
         }

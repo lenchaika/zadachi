@@ -1,13 +1,14 @@
 ﻿// задайте одномерный массив  из 123 случайных чисел
 // найдите количество элементов массива значение которых в отрезке [10,99]
 
-//int length = ReadInt("Array length");
+int length = ReadInt("Array length");
 //int find = ReadInt("Find number");
 int[] array = GetRandomArray(123, 0, 1000);
 PrintArray(array);
 Console.WriteLine();
 int count = FindElements(array);
 Console.WriteLine(count);
+
 
 int ReadInt(string argument)
 {

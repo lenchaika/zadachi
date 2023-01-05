@@ -1,6 +1,6 @@
 ﻿//Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
  int length = ReadInt("Array length");
-    int[] array = GetRandomArray(length, 1, 10);
+    int[] array = GetRandomArray(length, 1, 1000);
     PrintArray(array);
     Console.WriteLine();
     PrintArray(Clone(array));

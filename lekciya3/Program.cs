@@ -1,14 +1,14 @@
-﻿void Method1()
-{
-    Console.WriteLine("Автор...");
-}
+﻿//void Method1()
+//{
+//    Console.WriteLine("Автор...");
+//}
 
 //Method1();
 
-void Method2(string msg) //метод ничего не возвращает но принимает на себя аргументы
-{
-    Console.WriteLine(msg);
-}
+//void Method2(string msg) //метод ничего не возвращает но принимает на себя аргументы
+//{
+//    Console.WriteLine(msg);
+//}
 
 //Method2("Текст сообщения");
 
@@ -31,7 +31,7 @@ int Method3()//методы что-то возвращают но ничего �
 }
 
 int Year = Method3();
-Console.WriteLine(year);
+Console.WriteLine(Year);
 
 
 
@@ -52,17 +52,17 @@ Console.WriteLine(year);
 //Console.WriteLine(res);
 
 //еще один способ с for
-strimg Method4(int count, string c) 
-{
-    string result = String.Empty;
-    for(int i = 0; i < count; i++)
+// string Method4(int count, string c) 
+// {
+//     string result = String.Empty;
+//     for(int i = 0; i < count; i++)
    
-    {
-        result = result + text;
-   }
-  return result;
-}
-string res = Method4(10, "z");
+//     {
+//         result = result + text;
+//    }
+//   return result;
+// }
+// string res = Method4(10, "z");
 //Console.WriteLine(res);
 
 
